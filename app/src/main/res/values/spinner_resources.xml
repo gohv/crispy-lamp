@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--MAIN CATEGORY-->
+    <string-array name="category_array">
+        <item>Please Select Main Category</item>
+        <item>For Sale</item>
+        <item>Services</item>
+        <item>Vehicles</item>
+        <item>Property</item>
+    </string-array>
+    <!--END MAIN CATEGORY-->
+
+    <!--SUB CATEGORIES
+        1. Vehicles
+        2.for sale
+        3. services
+        4.property -->
+
+
+    <!--1. VEHICLES-->
+    <string-array name="vehicles_array">
+        <item>Cars</item>
+        <item>Motorcycles</item>
+        <item>Bicycles</item>
+        <item>Boats</item>
+    </string-array>
+    <!--END VEHICLES-->
+
+    <!--2.FOR SALE-->
+    <string-array name="for_sale_array">
+        <item>Fashion &amp; Beauty</item>
+        <item>Home and Garden</item>
+        <item>Handmade</item>
+        <item>Furniture</item>
+    </string-array>
+    <!--END FOR SALE-->
+
+    <!--3. SERVICES-->
+    <string-array name="services_array">
+        <item>Fashion &amp; Beauty</item>
+        <item>Catering</item>
+        <item>Babysitting</item>
+    </string-array>
+    <!--END SERVICES-->
+
+    <!--4.PROPERTY-->
+    <string-array name="property_array">
+        <item>Flat sharing</item>
+        <item>Houses for sale</item>
+        <item>Rooms to rent</item>
+    </string-array>
+    <!--END PROPERTY-->
+</resources>

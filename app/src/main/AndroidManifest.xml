@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.georgihristov.myadds">
+
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddPhotos"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="xyz.myads.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1234"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true">
+        </provider>
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name=".CategoryActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".AddPhotos"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ContactsActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:parentActivityName=".CategoryActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+</manifest>

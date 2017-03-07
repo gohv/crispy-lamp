@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/itemImage"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/itemImage"
+        android:layout_toRightOf="@+id/itemImage"
+        android:text="NAME OF AD"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"/>
+    <TextView
+        android:id="@+id/line"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="5dip"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f7f1f1"
+        android:layout_below="@+id/nameText"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_toEndOf="@+id/itemImage"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOFIA EDI SI KWO"
+        android:layout_below="@+id/priceText"
+        android:layout_alignLeft="@+id/priceText"
+        android:layout_alignStart="@+id/priceText"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceText"
+        android:text="100"
+        android:layout_below="@+id/nameText"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_toEndOf="@+id/itemImage"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/descriptionTExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION"
+        android:layout_below="@+id/locationText"
+        android:layout_alignLeft="@+id/locationText"
+        android:layout_alignStart="@+id/locationText"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"/>
+
+    <ImageView
+        android:id="@+id/priceImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_price"
+        android:layout_below="@+id/nameText"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_toEndOf="@+id/itemImage"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"/>
+
+    <ImageView
+        android:id="@+id/locationImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_location"
+        android:layout_below="@+id/priceImage"
+        android:layout_toRightOf="@+id/itemImage"
+        android:layout_toEndOf="@+id/itemImage"
+        android:paddingBottom="2dp"
+        />
+
+    <ImageView
+        android:id="@+id/descriptionImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationText"
+        android:layout_toEndOf="@+id/itemImage"
+        android:layout_toRightOf="@+id/itemImage"
+        app:srcCompat="@drawable/ic_description"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/euroText"
+        android:text="€"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/locationText"
+        android:layout_alignEnd="@+id/descriptionTExt"
+        android:layout_alignRight="@+id/descriptionTExt"
+        android:textColor="@color/cardview_dark_background"
+        android:paddingBottom="2dp"
+         />
+
+</RelativeLayout>

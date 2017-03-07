@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyAdds</string>
+    <string name="facebook_app_id">1792611527725201</string>
+    <string name="no_ads">If list is empty navigate to the next tab to create your new ads</string>
+    <string name="form_title">Title</string>
+    <string name="form_description">Description (512 max)</string>
+    <string name="form_price">Price</string>
+    <string name="general_info_value">* If you "don\'t" want the price to be visible, please use 0</string>
+    <string name="message_saved">Picture Saved!</string>
+    <string name="message_error_saving">There was an error saving the Pictire!</string>
+    <string name="phone_number">Phone Number (optional)</string>
+</resources>
