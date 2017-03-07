@@ -27,7 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddPhotos"
+        <activity android:name="view.AddPhotos"
             android:windowSoftInputMode="adjustPan"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"/>
@@ -46,13 +46,13 @@
         </provider>
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>
-        <activity android:name=".CategoryActivity"
+        <activity android:name="view.CategoryActivity"
             android:windowSoftInputMode="adjustPan"
-            android:parentActivityName=".AddPhotos"
+            android:parentActivityName="view.AddPhotos"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ContactsActivity"
+        <activity android:name="view.ContactsActivity"
             android:windowSoftInputMode="adjustPan"
-            android:parentActivityName=".CategoryActivity"
+            android:parentActivityName="view.CategoryActivity"
             android:screenOrientation="portrait"/>
     </application>
 </manifest>

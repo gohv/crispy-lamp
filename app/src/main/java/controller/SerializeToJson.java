@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
@@ -7,6 +7,7 @@ import com.google.gson.GsonBuilder;
 
 import io.realm.Realm;
 import io.realm.RealmObject;
+import model.Ad;
 
 /**
  * Created by gohv on 06.03.17.

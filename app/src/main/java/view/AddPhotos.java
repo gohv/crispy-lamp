@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package view;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -25,6 +25,9 @@ import java.util.UUID;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import fragment.PlaceAdFragment;
+import model.Ad;
+import xyz.georgihristov.myadds.R;
 
 /**
  * Created by gohv on 02.03.17.

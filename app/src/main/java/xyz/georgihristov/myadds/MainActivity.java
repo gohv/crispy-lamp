@@ -1,22 +1,18 @@
 package xyz.georgihristov.myadds;
 
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
+import controller.TabsAdapter;
 import io.realm.Realm;
+import model.Ad;
+import xyz.georgihristov.myadds.R;
 
 public class MainActivity extends AppCompatActivity {
 

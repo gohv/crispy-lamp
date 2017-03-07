@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,9 +14,10 @@ import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
-
-import static xyz.georgihristov.myadds.R.id.button;
+import model.Ad;
+import view.AddPhotos;
+import xyz.georgihristov.myadds.R;
+import controller.Validator;
 
 /**
  * Created by gohv on 02.03.17.

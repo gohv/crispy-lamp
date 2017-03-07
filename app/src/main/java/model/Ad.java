@@ -1,10 +1,7 @@
-package xyz.georgihristov.myadds;
+package model;
 
-import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
-
-import java.util.ArrayList;
 
 import io.realm.RealmObject;
 

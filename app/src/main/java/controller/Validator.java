@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import android.text.Editable;
 import android.text.TextWatcher;

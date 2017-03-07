@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,6 +18,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+
+import xyz.georgihristov.myadds.R;
 
 /**
  * Created by gohv on 03.03.17.

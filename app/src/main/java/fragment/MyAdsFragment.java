@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,6 +13,10 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import io.realm.Realm;
+import model.Ad;
+import xyz.georgihristov.myadds.R;
+import controller.RealmRecyclerAdapter;
+import controller.SerializeToJson;
 
 /**
  * Created by gohv on 02.03.17.

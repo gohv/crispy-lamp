@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="xyz.georgihristov.myadds.MainActivity">
+    tools:context="xyz.georgihristov.myadds.view.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"

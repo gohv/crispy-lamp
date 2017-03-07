@@ -1,9 +1,12 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import fragment.MyAdsFragment;
+import fragment.PlaceAdFragment;
 
 /**
  * Created by gohv on 02.03.17.

@@ -1,13 +1,10 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,9 +13,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
-
-import static android.app.Activity.RESULT_OK;
+import model.Ad;
+import xyz.georgihristov.myadds.R;
 
 /**
  * Created by gohv on 02.03.17.

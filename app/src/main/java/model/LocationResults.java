@@ -1,6 +1,4 @@
-package xyz.georgihristov.myadds;
-
-import android.location.Location;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;

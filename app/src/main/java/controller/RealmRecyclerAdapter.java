@@ -1,4 +1,4 @@
-package xyz.georgihristov.myadds;
+package controller;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,15 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
+import fragment.MyAdsFragment;
 import io.realm.OrderedRealmCollection;
 import io.realm.RealmRecyclerViewAdapter;
-
-import static xyz.georgihristov.myadds.AddPhotos.xSize;
-import static xyz.georgihristov.myadds.AddPhotos.ySize;
+import model.Ad;
+import xyz.georgihristov.myadds.R;
 
 /**
  * Created by gohv on 04.03.17.
@@ -27,7 +26,7 @@ public class RealmRecyclerAdapter extends
     private Context context;
 
 
-    public RealmRecyclerAdapter(MyAdsFragment activity, OrderedRealmCollection<Ad> data,Context context) {
+    public RealmRecyclerAdapter(MyAdsFragment activity, OrderedRealmCollection<Ad> data, Context context) {
         super(data, true);
         this.fragment = activity;
         this.context = context;
